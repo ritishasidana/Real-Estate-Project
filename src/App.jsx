@@ -8,8 +8,8 @@ import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="overflow-x-hidden">
+  return (      //It hides horizontal overflow
+    <div className="overflow-x-hidden">   
       <Navbar />
       <Hero />
       <Companies />
